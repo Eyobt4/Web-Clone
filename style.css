@@ -7,15 +7,15 @@ body{
 }
 @font-face {
     font-family: montreal-light;
-    src: url(/WebClone/fonts/Montreal\ Serial\ Light.ttf);
+    src: url(/fonts/Montreal\ Serial\ Light.ttf);
 }
 @font-face {
     font-family: montreal-medium;
-    src: url(/WebClone/fonts/Montreal\ Serial\ Medium.ttf);
+    src: url(/fonts/Montreal\ Serial\ Medium.ttf);
 }
 @font-face {
     font-family: montreal-xlight;
-    src: url(/WebClone/fonts/Montreal\ Serial\ ExtraLight.ttf);
+    src: url(/fonts/Montreal\ Serial\ ExtraLight.ttf);
 }
 .navbar{
     background-color: #1F3119;
@@ -696,9 +696,9 @@ button a{
         /* margin: 20px; */
         /* overflow:auto; */
     }
-    .newText{
+    /* .newText{
 
-    }
+    } */
     .imgdiv .try{
         display: none;
     } 
