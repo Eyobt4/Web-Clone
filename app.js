@@ -64,3 +64,18 @@ function SlideShow(n) {
   slides[slidePosition-1].style.display = "block";
   circles[slidePosition-1].className += " enable";
 }
+
+ function SendEmail(){
+    Email.send({
+      Host : "smtp.elasticemail.com",
+      Username : "username",
+      Password : "password",
+      To : 'them@website.com',
+      From : "you@isp.com",
+      Subject : "This is the subject",
+      Body : "And this is the body"
+  }).then(
+    message => alert(message)
+  );
+
+ }

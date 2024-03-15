@@ -259,22 +259,22 @@
     <section id="contact">
         <div class="contact">
             <img src="/images/contact.jpg">
-            <div class="form">
+            <div class="form" onsubmit="SendEmail(); reset(); return false;">
                     <h1>Get In Touch</h1>
                 <!-- <form> -->
                     <div class="all-top">
                         <div class="name">
                             <h3>NAME</h3>
-                            <input>
+                            <input placeholder="Full Name" id="name">
                         </div>
                         <div class="email">
                             <h3>EMAIL</h3>
-                            <input>
+                            <input placeholder="Your E-mail" id="email">
                         </div>
                     </div>
                     <div class="messsage">
                         <h3>MESSAGE</h3>
-                        <input>
+                        <input placeholder="Your Message" id="message">
                     </div>
                     <div class="send">
                         <button>Send message</button>    
@@ -336,5 +336,6 @@
 
 
     <script src="app.js"></script>
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
 </body>
 </html>
